@@ -1,0 +1,193 @@
+body {
+    background-image: linear-gradient(rgb(255, 227, 227) 10%, rgb(47, 73, 145));
+    overflow-x: hidden;
+    min-height: 100vh; 
+    font-family: "Lexend", sans-serif; 
+}
+
+.title {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;  
+    align-items: flex-start;
+    margin-top: 50px;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.text-column {
+    flex: 1;
+    padding: 20px;
+    font-size: 33px;
+    text-align: left;
+}
+
+.image-column {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square-image {
+    width: 700px; 
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-top: 100px;
+}
+
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    text-align: bottom;
+}
+
+li {
+    list-style-type: disc;
+    list-style-position: inside;
+    padding-left: 0px;
+    text-align: bottom; 
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #000;
+}
+
+.centered-text {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.5rem;
+    clear: both;  
+}
+
+
+html, body {
+    height: 3000px; 
+    margin: 0; 
+}
+
+h6 {
+    font-size: 4rem;
+    margin-top: 150px; 
+    margin-bottom: 0px; 
+    text-align: center;
+}
+
+
+
+
+h3 {
+    text-align: center;
+    margin-top: 100px;
+ 
+}
+
+h4 {
+    font-size: x-large;
+    text-align: center;
+    margin-top: 60px;  
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;  
+}
+.grid{
+    position: relative;
+    top: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 270px;
+    place-items: center;
+}
+
+    .grid a{
+        background-color: #ffffff;
+        padding: 10px 20px;
+        border-style: solid;
+        border-radius: 40px;
+        border-width: 1px;
+        border-color: rgb(0, 0, 0);
+        width: 70%;
+        min-width: 70%;
+        text-align: center;
+        box-shadow: 4px 10px 8px rgba(0, 0, 0, 0.434),-4px 4px 8px rgba(0, 0, 0, 0.334);
+        transition: 0.2s;
+    }
+
+     .grid h5 {
+        text-align: center;
+        width: 75%;
+        font-size: 21px;
+     }
+
+
+    .grid a:hover{
+        transform: scale(1.1);
+    }
+
+.text1{
+    position: relative;
+    display:flex;;;;;;;;;;;;;;;;;
+    justify-content: center;
+    top: 130px;
+}
+
+.sekce2 {
+    position: relative;
+    display:flex;;;;;;;;;;;;;;;;;
+    justify-content: center;
+    top: 350px;
+
+}
+
+.divtext2 h1 {
+text-align: center;
+}
+
+
+.divtext2 p {
+text-align: center;
+font-size: 28px;
+padding: 0 90px;
+}
+
+.sekce3 {
+position: relative;
+display: flex;
+justify-content: center;
+
+}
+
+
+.content3 {
+text-align: center;
+
+
+}
+    @font-face {
+        font-family: "Lexend";
+        src: url("fonts/Lexend-Regular.woff2") format("woff2"), /* Modern browsers */
+             url("fonts/Lexend-Regular.woff") format("woff"),   /* Fallback */
+             url("fonts/Lexend-Regular.ttf") format("truetype"); /* Older browsers */
+        font-weight: normal;
+        font-style: normal;
+    }
